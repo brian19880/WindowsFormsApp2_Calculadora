@@ -75,6 +75,7 @@ namespace WindowsFormsApp2_Calculadora
             this.btn1.TabIndex = 2;
             this.btn1.Text = "1";
             this.btn1.UseVisualStyleBackColor = true;
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
             // btn0
             // 
@@ -112,6 +113,7 @@ namespace WindowsFormsApp2_Calculadora
             this.btn2.TabIndex = 6;
             this.btn2.Text = "2";
             this.btn2.UseVisualStyleBackColor = true;
+            this.btn2.Click += new System.EventHandler(this.btn2_Click);
             // 
             // btn_punto
             // 
@@ -135,6 +137,7 @@ namespace WindowsFormsApp2_Calculadora
             // 
             this.txtbx_Entrada_Datos.Location = new System.Drawing.Point(166, 76);
             this.txtbx_Entrada_Datos.Name = "txtbx_Entrada_Datos";
+            this.txtbx_Entrada_Datos.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtbx_Entrada_Datos.Size = new System.Drawing.Size(247, 27);
             this.txtbx_Entrada_Datos.TabIndex = 9;
             // 
@@ -164,6 +167,7 @@ namespace WindowsFormsApp2_Calculadora
             this.btn_igual.TabIndex = 12;
             this.btn_igual.Text = "=";
             this.btn_igual.UseVisualStyleBackColor = true;
+            this.btn_igual.Click += new System.EventHandler(this.btn_igual_Click);
             // 
             // btn_division
             // 
@@ -191,6 +195,7 @@ namespace WindowsFormsApp2_Calculadora
             this.btn_Suma.TabIndex = 15;
             this.btn_Suma.Text = "+";
             this.btn_Suma.UseVisualStyleBackColor = true;
+            this.btn_Suma.Click += new System.EventHandler(this.btn_Suma_Click);
             // 
             // btn_Resta
             // 
