@@ -57,6 +57,7 @@ namespace WindowsFormsApp2_Calculadora
             this.btn7.TabIndex = 0;
             this.btn7.Text = "7";
             this.btn7.UseVisualStyleBackColor = true;
+            this.btn7.Click += new System.EventHandler(this.btn7_Click);
             // 
             // btn4
             // 
@@ -66,6 +67,7 @@ namespace WindowsFormsApp2_Calculadora
             this.btn4.TabIndex = 1;
             this.btn4.Text = "4";
             this.btn4.UseVisualStyleBackColor = true;
+            this.btn4.Click += new System.EventHandler(this.btn4_Click);
             // 
             // btn1
             // 
@@ -95,6 +97,7 @@ namespace WindowsFormsApp2_Calculadora
             this.btn8.TabIndex = 4;
             this.btn8.Text = "8";
             this.btn8.UseVisualStyleBackColor = true;
+            this.btn8.Click += new System.EventHandler(this.btn8_Click);
             // 
             // btn5
             // 
@@ -104,6 +107,7 @@ namespace WindowsFormsApp2_Calculadora
             this.btn5.TabIndex = 5;
             this.btn5.Text = "5";
             this.btn5.UseVisualStyleBackColor = true;
+            this.btn5.Click += new System.EventHandler(this.btn5_Click);
             // 
             // btn2
             // 
@@ -123,6 +127,7 @@ namespace WindowsFormsApp2_Calculadora
             this.btn_punto.TabIndex = 7;
             this.btn_punto.Text = ".";
             this.btn_punto.UseVisualStyleBackColor = true;
+            this.btn_punto.Click += new System.EventHandler(this.btn_punto_Click);
             // 
             // btn9
             // 
@@ -132,6 +137,7 @@ namespace WindowsFormsApp2_Calculadora
             this.btn9.TabIndex = 8;
             this.btn9.Text = "9";
             this.btn9.UseVisualStyleBackColor = true;
+            this.btn9.Click += new System.EventHandler(this.btn9_Click);
             // 
             // txtbx_Entrada_Datos
             // 
@@ -149,6 +155,7 @@ namespace WindowsFormsApp2_Calculadora
             this.btn6.TabIndex = 10;
             this.btn6.Text = "6";
             this.btn6.UseVisualStyleBackColor = true;
+            this.btn6.Click += new System.EventHandler(this.btn6_Click);
             // 
             // btn3
             // 
@@ -158,6 +165,7 @@ namespace WindowsFormsApp2_Calculadora
             this.btn3.TabIndex = 11;
             this.btn3.Text = "3";
             this.btn3.UseVisualStyleBackColor = true;
+            this.btn3.Click += new System.EventHandler(this.btn3_Click);
             // 
             // btn_igual
             // 
@@ -177,6 +185,7 @@ namespace WindowsFormsApp2_Calculadora
             this.btn_division.TabIndex = 13;
             this.btn_division.Text = "/";
             this.btn_division.UseVisualStyleBackColor = true;
+            this.btn_division.Click += new System.EventHandler(this.btn_division_Click);
             // 
             // btn_Multiplicacion
             // 
@@ -186,6 +195,7 @@ namespace WindowsFormsApp2_Calculadora
             this.btn_Multiplicacion.TabIndex = 14;
             this.btn_Multiplicacion.Text = "*";
             this.btn_Multiplicacion.UseVisualStyleBackColor = true;
+            this.btn_Multiplicacion.Click += new System.EventHandler(this.btn_Multiplicacion_Click);
             // 
             // btn_Suma
             // 
@@ -205,6 +215,7 @@ namespace WindowsFormsApp2_Calculadora
             this.btn_Resta.TabIndex = 16;
             this.btn_Resta.Text = "-";
             this.btn_Resta.UseVisualStyleBackColor = true;
+            this.btn_Resta.Click += new System.EventHandler(this.btn_Resta_Click);
             // 
             // btn_Borrar
             // 
@@ -214,6 +225,7 @@ namespace WindowsFormsApp2_Calculadora
             this.btn_Borrar.TabIndex = 17;
             this.btn_Borrar.Text = "Borrar";
             this.btn_Borrar.UseVisualStyleBackColor = true;
+            this.btn_Borrar.Click += new System.EventHandler(this.btn_Borrar_Click);
             // 
             // Form1
             // 
